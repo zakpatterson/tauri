@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.11.1]
+
+-   Adjust payload formatting to handle multibyte characters in front-end message
+    payloads.
+        - Bumped due to a bump in tauri.
+        - [df70ca5](https://www.github.com/tauri-apps/tauri/commit/df70ca51965665952a74161cc6eb1ff19eae45e2) Fix [#912](https://www.github.com/tauri-apps/tauri/pull/912) multibyte character breaks message ([#914](https://www.github.com/tauri-apps/tauri/pull/914)) on 2020-08-01
+
 ## [0.11.0]
 
 -   Fixes the Webview initialization on Windows.
